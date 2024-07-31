@@ -1,0 +1,9 @@
+bokeh
+pandas
+pyarrow
+boto3
+dask
+s3fs
+geopandas
+matplotlib
+plotly

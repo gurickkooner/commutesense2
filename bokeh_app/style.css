@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the whole layout */
+.bk-root .container {
+    margin: 20px;
+}
+
+/* Title styling */
+.bk-root .bk-figure-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Select widget styling */
+.bk-root .bk-input-group {
+    margin-bottom: 20px;
+}
+
+.bk-root .bk-select {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Plot styles */
+.bk-root .bk-figure {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Plot titles */
+.bk-root .bk-figure .bk-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Axes labels */
+.bk-root .bk-figure .bk-axis-label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Legend styling */
+.bk-root .bk-figure .bk-legend-item-text {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Tooltip styling */
+.bk-tooltip {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}

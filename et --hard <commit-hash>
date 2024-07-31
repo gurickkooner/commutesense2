@@ -1,0 +1,60 @@
+[33mcommit 683122642bb1cda0527533a489f957ce2ab116df[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mvictoria307[m[33m, [m[1;31morigin/victoria267[m[33m, [m[1;32mvictoria267[m[33m)[m
+Author: Ubuntu <ubuntu@ip-172-31-38-42.ec2.internal>
+Date:   Tue Jul 30 06:02:04 2024 +0000
+
+    the bokeh app
+
+[33mcommit 6a741f776d31c6224b2c483cbdd652e3725e6359[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 8fe785b 6f78430
+Author: gurickkooner <59937930+gurickkooner@users.noreply.github.com>
+Date:   Fri Jul 26 23:47:57 2024 -0600
+
+    Merge pull request #2 from gurickkooner/filterlogic
+    
+    added filter logic for 2024 months
+
+[33mcommit 6f78430ea25f7b3e719f5006d17d6a17e60ce2e6[m[33m ([m[1;31morigin/filterlogic[m[33m)[m
+Author: Ubuntu <ubuntu@ip-172-31-38-42.ec2.internal>
+Date:   Sat Jul 27 05:47:21 2024 +0000
+
+    added filter logic for 2024 months
+
+[33mcommit 8fe785be142eca0d0ff46b98ad0ac0dcdd59da3e[m[33m ([m[1;32mvictoria[m[33m)[m
+Merge: 8b6a831 7c48c11
+Author: gurickkooner <59937930+gurickkooner@users.noreply.github.com>
+Date:   Thu Jul 25 20:33:14 2024 -0600
+
+    Merge pull request #1 from gurickkooner/dataclean
+    
+    Dataclean
+
+[33mcommit 7c48c1190617cc5c568b56187314bb3891a9a32e[m[33m ([m[1;31morigin/dataclean[m[33m, [m[1;32mdataclean[m[33m)[m
+Author: Ubuntu <ubuntu@ip-172-31-38-42.ec2.internal>
+Date:   Fri Jul 26 02:32:16 2024 +0000
+
+    cleaned all files
+
+[33mcommit 6eb0d661ed336f8ffe53e6fc61d403e78ca2e95f[m[33m ([m[1;31morigin/victoria[m[33m)[m
+Author: Ubuntu <ubuntu@ip-172-31-38-42.ec2.internal>
+Date:   Thu Jul 25 05:51:24 2024 +0000
+
+    first commit
+
+[33mcommit 8b6a831176218412c751c26aaacaaa6cda8a16a4[m
+Merge: ee095db 8190f60
+Author: Ubuntu <ubuntu@ip-172-31-38-42.ec2.internal>
+Date:   Thu Jul 25 04:57:15 2024 +0000
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit ee095db00d358bc556c69e94ad4d6ccd69e411e3[m
+Author: Ubuntu <ubuntu@ip-172-31-38-42.ec2.internal>
+Date:   Thu Jul 25 04:53:29 2024 +0000
+
+    Initial commit
+
+[33mcommit 8190f60b850fd7a1e20d297ad7d209455d475ff4[m
+Author: gurickkooner <59937930+gurickkooner@users.noreply.github.com>
+Date:   Tue Jul 23 15:47:30 2024 -0600
+
+    Initial commit
