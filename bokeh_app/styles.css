@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+#title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bk-root .bk-input {
+    width: 100px;
+    margin: 10px;
+}
+
+.bk-root .bk-gridplot {
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.map-container {
+    width: 1200px;
+    height: 800px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.map-title {
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.no-space .bk-plot-div {
+    margin: 0;
+    padding: 0;
+}
