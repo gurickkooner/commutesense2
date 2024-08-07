@@ -1,16 +1,31 @@
-version: '3.8'
+# version: '3'
+# services:
+#   bokeh-dashboard:
+#     build: .
+#     volumes:
+#       - ./bokeh_app:/app/bokeh_app
+#     ports:
+#       - "5007:5007"
+#     command: ["bokeh", "serve", "--show", "/app/bokeh_app", "--port", "5007", "--allow-websocket-origin=*"]
 
+
+# version: '3'
+# services:
+#   bokeh-dashboard:
+#     build: .
+#     volumes:
+#       - ./bokeh_app:/app/bokeh_app
+#     ports:
+#       - "5007:5007"
+#     command: ["bokeh", "serve", "--show", "/app/bokeh_app", "--port", "5007", "--allow-websocket-origin=*"]
+
+
+version: '3'
 services:
   bokeh-dashboard:
     build: .
+    volumes:
+      - ./bokeh_app:/app/bokeh_app
     ports:
       - "5007:5007"
-    environment:
-      - NAME=BokehDashboard
-    command: ["bokeh", "serve", "--show", "commutesense.py", "--port", "5007", "--allow-websocket-origin=*"]
-
-  data-cleaning:
-    build: .
-    command: ["python3", "/app/datacleaning.py"]
-    environment:
-      - NAME=DataCleaning
+    command: ["bokeh", "serve", "--show", "/app/bokeh_app", "--port", "5007", "--address", "0.0.0.0", "--allow-websocket-origin=*"]
