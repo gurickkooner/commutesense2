@@ -7,3 +7,6 @@ s3fs
 geopandas
 matplotlib
 plotly
+folium
+joblib
+scikit-learn
